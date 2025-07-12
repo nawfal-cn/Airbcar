@@ -5,6 +5,10 @@ import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import PopularDestinations from "./components/PopularDestinations";
 import Footer from "./components/Footer";
+import TrustSignals from "./components/TrustSignals";
+import RentalProviders from "./components/RentalProviders";
+import CarRentalFacts from "./components/CarRentalFacts";
+import InfoSection from "./components/InfoSection";
 
 export default function Home() {
   return (
@@ -14,7 +18,11 @@ export default function Home() {
       <Features />
       <PopularDestinations />
       <CarTypes />
+      <TrustSignals />
+      <RentalProviders />
+      <CarRentalFacts />
       <HowItWorks />
+      <InfoSection />
       <Footer />
     </div>
   );

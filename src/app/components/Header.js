@@ -5,7 +5,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-lg font-bold text-gray-900">LOGO</h1>
+            <h1 className="text-lg font-bold text-gray-900">Aircar</h1>
           </div>
           
           {/* Navigation - Center */}

@@ -14,7 +14,7 @@ export default function PopularDestinations() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           
           {/* Marrakech Card */}
-          <div className="relative bg-blue-600 rounded-lg overflow-hidden h-64 group cursor-pointer">
+          <div className="relative bg-blue-600 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <div className="absolute bottom-6 left-6 text-white">
               <h3 className="text-2xl font-bold mb-1">Marrakech</h3>
@@ -28,7 +28,7 @@ export default function PopularDestinations() {
           </div>
 
           {/* Agadir Card */}
-          <div className="relative bg-blue-500 rounded-lg overflow-hidden h-64 group cursor-pointer">
+          <div className="relative bg-blue-500 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <div className="absolute bottom-6 left-6 text-white">
               <h3 className="text-2xl font-bold mb-1">Agadir</h3>
@@ -42,7 +42,7 @@ export default function PopularDestinations() {
           </div>
 
           {/* Tangier Card */}
-          <div className="relative bg-teal-500 rounded-lg overflow-hidden h-64 group cursor-pointer">
+          <div className="relative bg-teal-500 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <div className="absolute bottom-6 left-6 text-white">
               <h3 className="text-2xl font-bold mb-1">Tangier</h3>
@@ -56,7 +56,7 @@ export default function PopularDestinations() {
           </div>
 
           {/* Casablanca Card */}
-          <div className="relative bg-purple-500 rounded-lg overflow-hidden h-64 group cursor-pointer">
+          <div className="relative bg-purple-500 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <div className="absolute bottom-6 left-6 text-white">
               <h3 className="text-2xl font-bold mb-1">Casablanca</h3>
