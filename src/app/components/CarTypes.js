@@ -7,7 +7,7 @@ export default function CarTypes() {
       bags: 3,
       price: 136,
       image: "🚗",
-      bgColor: "bg-blue-500"
+      bgColor: "bg-blue-100"
     },
     {
       name: "Economy", 
@@ -16,7 +16,7 @@ export default function CarTypes() {
       bags: 2,
       price: 145,
       image: "🚙",
-      bgColor: "bg-gray-500"
+      bgColor: "bg-green-100"
     },
     {
       name: "Intermediate",
@@ -25,7 +25,7 @@ export default function CarTypes() {
       bags: 4,
       price: 170,
       image: "🚗",
-      bgColor: "bg-white"
+      bgColor: "bg-purple-100"
     },
     {
       name: "Mini",
@@ -34,7 +34,7 @@ export default function CarTypes() {
       bags: 1, 
       price: 203,
       image: "🚗",
-      bgColor: "bg-gray-600"
+      bgColor: "bg-orange-100"
     },
     {
       name: "Full-size",
@@ -43,7 +43,7 @@ export default function CarTypes() {
       bags: 4,
       price: 257,
       image: "🚗",
-      bgColor: "bg-white"
+      bgColor: "bg-teal-100"
     },
     {
       name: "Premium",
@@ -52,7 +52,7 @@ export default function CarTypes() {
       bags: 2,
       price: 419,
       image: "🚗", 
-      bgColor: "bg-gray-700"
+      bgColor: "bg-indigo-100"
     }
   ];
 

@@ -1,7 +1,11 @@
 export default function Hero() {
   return (
-    <section className="bg-slate-800 py-20 px-4">
-      <div className="max-w-7xl mx-auto">
+    <section
+      className="bg-slate-800 py-20 px-4 relative"
+      style={{ backgroundImage: 'url(/background.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+    >
+      <div className="absolute inset-0 bg-black opacity-10"></div>
+      <div className="relative max-w-7xl mx-auto">
         {/* Headline */}
         <div className="text-center mb-12">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-8">
