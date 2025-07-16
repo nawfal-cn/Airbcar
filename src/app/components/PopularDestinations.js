@@ -138,9 +138,12 @@ export default function PopularDestinations() {
           
           {/* Marrakech Card */}
           <div className="flex-shrink-0 w-72 relative bg-blue-600 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
-            {/* Background pattern/color representing Marrakech */}
-            <div className="absolute inset-0 bg-gradient-to-br from-orange-300 to-red-400 opacity-70"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            {/* Background image */}
+            <div 
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: 'url(/cities/marrakesh.jpg)' }}
+            ></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
             <div className="absolute top-6 left-6 text-white z-10">
               <h3 className="text-2xl font-bold mb-1">Marrakech</h3>
               <p className="text-sm font-medium">Most popular car type: Economy</p>
@@ -152,9 +155,12 @@ export default function PopularDestinations() {
 
           {/* Agadir Card */}
           <div className="flex-shrink-0 w-72 relative bg-blue-500 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
-            {/* Background representing Agadir */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-300 to-blue-500 opacity-70"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            {/* Background image */}
+            <div 
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: 'url(/cities/agadir.jpg)' }}
+            ></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
             <div className="absolute top-6 left-6 text-white z-10">
               <h3 className="text-2xl font-bold mb-1">Agadir</h3>
               <p className="text-sm font-medium">Most popular car type: Economy</p>
@@ -166,9 +172,12 @@ export default function PopularDestinations() {
 
           {/* Tangier Card */}
           <div className="flex-shrink-0 w-72 relative bg-teal-500 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
-            {/* Background representing Tangier */}
-            <div className="absolute inset-0 bg-gradient-to-br from-teal-300 to-green-400 opacity-70"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            {/* Background image */}
+            <div 
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: 'url(/cities/tangier.jpg)' }}
+            ></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
             <div className="absolute top-6 left-6 text-white z-10">
               <h3 className="text-2xl font-bold mb-1">Tangier</h3>
               <p className="text-sm font-medium">Most popular car type: Economy</p>
@@ -180,9 +189,12 @@ export default function PopularDestinations() {
 
           {/* Casablanca Card */}
           <div className="flex-shrink-0 w-72 relative bg-purple-500 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
-            {/* Background representing Casablanca */}
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-300 to-pink-400 opacity-70"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            {/* Background image */}
+            <div 
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: 'url(/cities/casablanca.jpg)' }}
+            ></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
             <div className="absolute top-6 left-6 text-white z-10">
               <h3 className="text-2xl font-bold mb-1">Casablanca</h3>
               <p className="text-sm font-medium">Most popular car type: Economy</p>
@@ -194,9 +206,12 @@ export default function PopularDestinations() {
 
           {/* Rabat Card */}
           <div className="flex-shrink-0 w-72 relative bg-emerald-500 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
-            {/* Background representing Rabat */}
-            <div className="absolute inset-0 bg-gradient-to-br from-emerald-300 to-green-500 opacity-70"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            {/* Background image */}
+            <div 
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: 'url(/cities/rabat.jpg)' }}
+            ></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
             <div className="absolute top-6 left-6 text-white z-10">
               <h3 className="text-2xl font-bold mb-1">Rabat</h3>
               <p className="text-sm font-medium">Most popular car type: Economy</p>
@@ -208,9 +223,12 @@ export default function PopularDestinations() {
 
           {/* Tetouan Card */}
           <div className="flex-shrink-0 w-72 relative bg-indigo-500 rounded-lg overflow-hidden aspect-[9/14] group cursor-pointer">
-            {/* Background representing Tetouan */}
-            <div className="absolute inset-0 bg-gradient-to-br from-indigo-300 to-blue-500 opacity-70"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            {/* Background image */}
+            <div 
+              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: 'url(/cities/tetouan.jpg)' }}
+            ></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
             <div className="absolute top-6 left-6 text-white z-10">
               <h3 className="text-2xl font-bold mb-1">Tetouan</h3>
               <p className="text-sm font-medium">Most popular car type: Economy</p>
