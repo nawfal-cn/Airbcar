@@ -1,72 +1,6 @@
 # Car Rental Platform
 
-A modern car rental platform built with Next.js, featuring user a6. Run the development server:
-```bash
-pnpm dev
-```
-
-### Docker Setup (Alternative)
-
-If you prefer to use Docker, you can run the entire application in a container:
-
-#### Quick Docker Setup
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd hello-world
-```
-
-2. Run the Docker setup script:
-```bash
-./docker-setup.sh
-```
-
-This will automatically:
-- Create `.env.local` from `.env.example`
-- Generate a NextAuth secret
-- Build the Docker image
-- Start the application at `http://localhost:3000`
-
-#### Manual Docker Setup
-
-1. Clone and navigate to the project:
-```bash
-git clone <your-repo-url>
-cd hello-world
-```
-
-2. Create environment file:
-```bash
-cp .env.example .env.local
-# Edit .env.local with your values
-```
-
-3. Build and run with Docker Compose:
-```bash
-docker-compose up --build
-```
-
-#### Docker Commands
-
-```bash
-# Build and start the application
-pnpm run docker:dev
-
-# Stop the application
-pnpm run docker:stop
-
-# View logs
-pnpm run docker:logs
-
-# Build Docker image only
-pnpm run docker:build
-
-# Run Docker container directly
-pnpm run docker:run
-```
-
-## Usageication, admin panel, and a beautiful UI.
+A modern car rental platform built with Next.js, featuring user authentication, admin panel, and a beautiful UI.
 
 ## Features
 
@@ -155,6 +89,67 @@ pnpm run db:setup
 5. Run the development server:
 ```bash
 pnpm dev
+```
+
+### Docker Setup (Alternative)
+
+If you prefer to use Docker, you can run the entire application in a container:
+
+#### Quick Docker Setup
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd hello-world
+```
+
+2. Run the Docker setup script:
+```bash
+./docker-setup.sh
+```
+
+This will automatically:
+- Create `.env.local` from `.env.example`
+- Generate a NextAuth secret
+- Build the Docker image
+- Start the application at `http://localhost:3000`
+
+#### Manual Docker Setup
+
+1. Clone and navigate to the project:
+```bash
+git clone <your-repo-url>
+cd hello-world
+```
+
+2. Create environment file:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your values
+```
+
+3. Build and run with Docker Compose:
+```bash
+docker-compose up --build
+```
+
+#### Docker Commands
+
+```bash
+# Build and start the application
+pnpm run docker:dev
+
+# Stop the application
+pnpm run docker:stop
+
+# View logs
+pnpm run docker:logs
+
+# Build Docker image only
+pnpm run docker:build
+
+# Run Docker container directly
+pnpm run docker:run
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
