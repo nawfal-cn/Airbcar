@@ -1,19 +1,52 @@
-# Hello World Next.js App
+# Car Rental Platform
 
-This is a simple Next.js project that displays "Hello World" on the screen. The project was created with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and styled with Tailwind CSS.
+A modern car rental platform built with Next.js, featuring user authentication, admin panel, and a beautiful UI.
 
 ## Features
 
 - Next.js 15.3.5 with JavaScript
 - Tailwind CSS v4 for styling
 - App Router architecture
-- Clean, minimal "Hello World" display
+- NextAuth.js authentication with email/password and Google OAuth
+- Prisma ORM with SQLite database
+- Admin panel for user management
+- Password reset functionality
+- Responsive design with modern UI components
 - pnpm package manager
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ 
+- pnpm (recommended) or npm
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd hello-world
+```
+
+2. Install dependencies:
+```bash
+pnpm install
+```
+
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+```
+Edit `.env.local` and add your actual values for the environment variables.
+
+4. Set up the database:
+```bash
+pnpm dlx prisma migrate dev
+pnpm dlx prisma generate
+```
+
+5. Run the development server:
 ```bash
 pnpm dev
 ```

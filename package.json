@@ -10,7 +10,11 @@
     "start": "next start",
     "lint": "next lint",
     "db:studio": "prisma studio",
-    "db:view": "node view-users.js"
+    "db:view": "node view-users.js",
+    "db:migrate": "prisma migrate dev",
+    "db:generate": "prisma generate",
+    "db:setup": "prisma migrate dev && prisma generate",
+    "setup": "pnpm install && pnpm db:setup"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
