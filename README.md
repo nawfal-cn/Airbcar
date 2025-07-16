@@ -21,7 +21,44 @@ A modern car rental platform built with Next.js, featuring user authentication, 
 - Node.js 18+ 
 - pnpm (recommended) or npm
 
-### Installation
+### Quick Setup
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd hello-world
+```
+
+2. Install dependencies:
+```bash
+pnpm install
+```
+
+3. Run the setup script:
+```bash
+pnpm run setup
+```
+This will create `.env.local` from the example and guide you through the setup.
+
+4. Edit `.env.local` with your actual values (at minimum, add a NextAuth secret):
+```bash
+# Generate a secret for NextAuth
+openssl rand -base64 32
+```
+
+5. After editing .env.local, set up the database:
+```bash
+pnpm run db:setup
+```
+
+6. Run the development server:
+```bash
+pnpm dev
+```
+
+### Manual Setup
+
+If you prefer to set up manually:
 
 1. Clone the repository:
 ```bash
@@ -38,12 +75,15 @@ pnpm install
 ```bash
 cp .env.example .env.local
 ```
-Edit `.env.local` and add your actual values for the environment variables.
+Edit `.env.local` and add your actual values. At minimum, generate a NextAuth secret:
+```bash
+# Generate a secret for NextAuth
+openssl rand -base64 32
+```
 
 4. Set up the database:
 ```bash
-pnpm dlx prisma migrate dev
-pnpm dlx prisma generate
+pnpm run db:setup
 ```
 
 5. Run the development server:
