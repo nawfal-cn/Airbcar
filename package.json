@@ -16,7 +16,12 @@
     "db:setup": "prisma migrate dev && prisma generate",
     "setup": "./setup.sh",
     "setup:manual": "pnpm install",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "docker:build": "docker build -t car-rental-app .",
+    "docker:run": "docker run -p 3000:3000 car-rental-app",
+    "docker:dev": "docker-compose up --build",
+    "docker:stop": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
